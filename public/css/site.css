@@ -1,0 +1,88 @@
+
+body {
+  background-color: #ccc;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+input:focus {
+  outline: none;
+  border:0;
+}
+::-webkit-input-placeholder {
+    color:    #fff;
+}
+:-moz-placeholder {
+    color:    #fff;
+}
+::-moz-placeholder {
+    color:    #fff;
+}
+:-ms-input-placeholder {
+    color:    #fff;
+}
+
+.col-md-4 .panel {
+  height:220px;
+}
+
+.type {
+  padding: 5px 10px;
+  color: #fff;
+  text-transform: capitalize;
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.type-normal {
+  background-color: crimson;
+}
+.type-water {
+  background-color: dodgerblue;
+}
+.type-poison {
+  background-color: slategrey;
+}
+.type-ground {
+  background-color: darkcyan;
+}
+.type-electric {
+  background-color: hotpink;
+}
+.type-fairy {
+  background-color: plum;
+}
+.type-flying {
+  background-color: steelblue;
+}
+.type-bug {
+  background-color: limegreen;
+}
+
+.type-fire {
+  background-color: darkorange;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+}
+.placeholder-image{
+  width: 75px;
+  height: 75px;
+  background-image: url('../img/loader.gif');
+  background-repeat: no-repeat;;
+  background-position: center center;
+}
+
+
+
+
+
+}
